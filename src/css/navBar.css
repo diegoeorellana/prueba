@@ -1,0 +1,44 @@
+
+/* nav cs */
+.navMio{
+    background-color: #121212;
+    padding: 15px;
+    margin: 0px auto;
+    /* position: fixed; */
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+    
+}
+
+.linkss{
+    text-decoration: none;
+}
+
+.navMio ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.navMio ul Link li{
+    padding: 0px 10px;
+}
+
+.navMio ul li h3{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+.navMio ul li h3:hover{
+    color: #f00;
+}
+
